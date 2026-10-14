@@ -4,7 +4,7 @@ A small command-line tool that stamps a tiled, diagonal, semi-transparent text w
 
 It's built for the moment an employer, landlord or agency asks for copies of your passport, visa or ID. A watermark like *"For XYZ job application only – 14 Oct 2026"* keeps the document readable for them, but makes the copy much harder to reuse for anything else.
 
-![Example of a watermarked sample ID card](example.jpg)
+![Example of a watermarked sample ID card](docs/example.jpg)
 
 ## Features
 
