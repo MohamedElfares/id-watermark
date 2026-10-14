@@ -1,0 +1,17 @@
+# Ruff configuration: https://docs.astral.sh/ruff/configuration/
+line-length = 88
+target-version = "py310"
+
+[lint]
+select = ["ALL"]
+ignore = [
+    "D203",  # Conflicts with D211 (no blank line before class docstring).
+    "D213",  # Conflicts with D212 (summary on the first docstring line).
+    "COM812",  # Conflicts with the ruff formatter.
+]
+
+[lint.pydocstyle]
+convention = "google"
+
+[format]
+docstring-code-format = true
